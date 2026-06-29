@@ -16,16 +16,7 @@ This code does **not** claim to prove a final black-hole interior model. It prov
 code/                         Main numbered analysis scripts
 code/utils/                   Shared constants and plotting helpers
 results/                      Generated CSV, TeX, and Markdown result tables
-figures/                      Figures 1-12
-fig13_energy_conditions/      Energy-condition figures
-fig14_junction_matching/      Junction/matching figures
-fig15_causal_tapered_core/    Causal tapered core figures
-fig16_smooth_transition_matching/
-fig17_curvature_regular_core/
-fig18_compactness_branch_map/
-fig19_einstein_qcd_tov/
-fig20_anisotropic_cfl_core/
-fig21_relativistic_gl/
+figures/                      Figures 1-21
 docker/                       Docker requirements
 tests/                        Static repository checks
 ```
