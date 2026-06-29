@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "BEY Schwarzschild Condensation: Compact-Object Diagnostic Code"
+message: "If you use this code, please cite the associated manuscript or repository."
+type: software
+authors:
+  - family-names: "Esa"
+    given-names: "Erdem"
+version: "0.1.0"
+date-released: "2026-06-29"
+repository-code: "https://github.com/<your-username>/bey-schwarzschild-condensation"
+license: "NOASSERTION"

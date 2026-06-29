@@ -1,0 +1,44 @@
+{
+  "source_zip": "/mnt/data/schwarzschild-condensation(2).zip",
+  "final_file_count": 226,
+  "final_total_size_bytes": 9801829,
+  "suffix_counts": {
+    "": 2,
+    ".yml": 1,
+    ".txt": 2,
+    ".md": 16,
+    ".py": 36,
+    ".pdf": 62,
+    ".png": 62,
+    ".csv": 34,
+    ".tex": 5
+  },
+  "removed_files": [
+    "code/utils/__pycache__/constants.cpython-311.pyc",
+    "docker/requirements.txt.txt",
+    "figures/fig09_kerr_extension_fixed.pdf",
+    "figures/fig09_kerr_extension_fixed.png",
+    "results.zip",
+    "schwarzschild-condensation.zip",
+    "schwarzschild-condensationfour.zip",
+    "schwarzschild-condensationone.zip",
+    "schwarzschild-condensationthree.zip",
+    "schwarzschild-condensationtwo.zip"
+  ],
+  "duplicate_groups_after_cleanup": [
+    [
+      "requirements.txt",
+      "docker/requirements.txt"
+    ]
+  ],
+  "python_files_checked": 36,
+  "python_compile_errors": [],
+  "notes": [
+    "Nested ZIP archives were removed from the GitHub pack.",
+    "Python bytecode/cache files were removed.",
+    "Duplicate fig09_kerr_extension_fixed files were removed because they matched fig09_kerr_extension exactly.",
+    "docker/requirements.txt.txt was consolidated into requirements.txt and docker/requirements.txt.",
+    "A unified code/run_all_bey.py entry point was added.",
+    "Static pytest checks, README, CITATION skeleton, and repository manifest were added."
+  ]
+}

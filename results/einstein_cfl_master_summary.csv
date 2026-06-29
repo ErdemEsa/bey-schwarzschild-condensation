@@ -1,0 +1,3 @@
+module,solutions,max_mass_Msun,max_compactness,role_in_BEY,claim_boundary
+Einstein + QCD-inspired EOS / isotropic TOV,114,2.331355025339388,0.5610023463201265,supports Einstein-system effective-core modelling,not full first-principles Einstein-QCD
+Anisotropic Einstein + CFL effective pressures,222,1.9501532121999368,0.5790493042649089,tests anisotropic pressure support and energy-condition compatibility,not full relativistic QCD transport or nonlinear stability theorem

@@ -1,0 +1,7 @@
+Claim,Supported by,Allowed wording,Forbidden wording,Status
+The BEY ansatz can replace the classical central divergence by a finite-density effective core at toy-model level.,"regular centre, m(r) behavior, finite curvature diagnostics",supports a finite-curvature regular-core replacement at the toy-model level,proves the black-hole singularity is solved,safe with caveat
+The tapered branch improves matching to a Schwarzschild exterior.,boundary density/pressure suppression and reduced matching warnings,reduces boundary-pressure tension and gives a cleaner matching diagnostic,proves a full smooth Darmois-Israel matching,safe with caveat
+Energy conditions are compatible with a broad parameter region.,NEC/WEC/SEC/DEC scans,the scanned tapered branch satisfies NEC/WEC/SEC/DEC over the tested grid,all physically possible cores satisfy all energy conditions,safe with scan range specified
+The model can have an ECO/echo phenomenological branch.,compactness branch map and previous echo modules,a horizon-near branch may be used for conditional ECO/echo phenomenology,BEY necessarily predicts echoes,conditional only
+The model is QCD-inspired.,effective condensate profile and QCD phase-transition diagnostics,QCD-inspired effective condensate-core ansatz,full Einstein-QCD solution,"safe as inspiration, not derivation"
+The model is stable.,toy stability and causal-proxy filters,passes first stability diagnostics / causal-proxy filters,nonlinearly stable compact object solution,not fully proven

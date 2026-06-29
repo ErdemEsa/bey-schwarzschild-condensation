@@ -1,0 +1,2 @@
+background,n_grid,converged,iterations,last_delta,max_abs_residual,rms_residual,total_free_energy_proxy,gradient_energy_proxy,potential_energy_proxy,psi_center,psi_surface,psi_max,condensed_weighted_fraction_psi_gt_0p5,interface_width_in_x,x_transition,width,a0,b
+v6_tov,320,True,99,2.263816600844848e-08,1.0549478083987651e-05,4.836840248979892e-06,-53.6001838358998,18.198613526708552,-71.79879736260835,8.935654678828511,0.0,8.935654678828511,0.6222288873031725,0.128209296025388,0.72,0.055,80.0,1.0

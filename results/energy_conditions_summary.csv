@@ -1,0 +1,2 @@
+n_parameter_sets,strict_accept_count,regularizing_accept_count,NEC_pass_count,WEC_pass_count,SEC_pass_count,DEC_pass_count,causality_pass_count,center_regular_count
+60,8,56,56,56,32,56,8,60

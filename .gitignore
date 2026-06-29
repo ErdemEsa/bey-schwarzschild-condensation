@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local build/archive files
+*.zip
+*.tar.gz
+*.7z
+
+# Runtime notebooks/checkpoints
+.ipynb_checkpoints/
+
+# Optional local logs
+*.log

@@ -1,0 +1,36 @@
+services:
+  bey-compute:
+    build: .
+    container_name: bey-compute
+    volumes:
+      - ./code:/workspace/code
+      - ./figures:/workspace/figures
+      - ./fig13_energy_conditions:/workspace/fig13_energy_conditions
+      - ./fig14_junction_matching:/workspace/fig14_junction_matching
+      - ./fig15_causal_tapered_core:/workspace/fig15_causal_tapered_core
+      - ./fig16_smooth_transition_matching:/workspace/fig16_smooth_transition_matching
+      - ./fig17_curvature_regular_core:/workspace/fig17_curvature_regular_core
+      - ./fig18_compactness_branch_map:/workspace/fig18_compactness_branch_map
+      - ./fig19_einstein_qcd_tov:/workspace/fig19_einstein_qcd_tov
+      - ./fig20_anisotropic_cfl_core:/workspace/fig20_anisotropic_cfl_core
+      - ./fig21_relativistic_gl:/workspace/fig21_relativistic_gl
+      - ./results:/workspace/results
+      - ./tests:/workspace/tests
+    environment:
+      - PYTHONPATH=/workspace
+      - MPLBACKEND=Agg
+    working_dir: /workspace
+    command: tail -f /dev/null
+
+  bey-jupyter:
+    build: .
+    container_name: bey-jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./:/workspace
+    environment:
+      - PYTHONPATH=/workspace
+      - MPLBACKEND=Agg
+    working_dir: /workspace
+    command: jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root

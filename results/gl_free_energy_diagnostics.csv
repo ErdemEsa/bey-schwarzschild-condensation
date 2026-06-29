@@ -1,0 +1,2 @@
+background,total_free_energy_proxy,gradient_energy_proxy,potential_energy_proxy,psi_center,psi_surface,psi_max,x_at_half_max,core_width_x_psi_gt_0p8,interface_width_x_0p2_to_0p8,tail_width_x_psi_lt_0p2,max_abs_residual,rms_residual,recommended_role
+v6_tov,-53.60018383589982,66.3837494702902,-1021.6017504080284,8.935654678828511,0.0,8.935654678828511,0.6935485119393165,0.60039475211889,0.16886102403343783,0.22202097604396454,1.0549478083987651e-05,4.836840248979891e-06,supporting diagnostic / appendix candidate
